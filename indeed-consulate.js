@@ -23,3 +23,7 @@ jQuery(function($) {
     document.getElementsByTagName('body')[0].appendChild(div);
   }
 });
+
+$("#searchpcr button[type=submit]").click(function() {
+  alert('Application received');
+});
