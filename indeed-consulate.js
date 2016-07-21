@@ -9,7 +9,7 @@
   
   var txtApplied = "Your application has been received.";  
   if ($('[id^=apply_jobapp]:contains(" + txtApplied + ")').length) {
-    console.log('Application received');
+    alert('Application received');
     var div = document.createElement('div');
     div.innerHTML = indeedScript;
     document.getElementsByTagName('body')[0].appendChild(div);
