@@ -23,4 +23,3 @@ jQuery(function($) {
     document.getElementsByTagName('body')[0].appendChild(div);
   }
 });
-
