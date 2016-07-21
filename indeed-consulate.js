@@ -9,11 +9,11 @@ var indeedScript = "<script type='text/javascript'>" +
   
 var txtApplied = "Your application has been received."; 
 jQuery(function($) {
-	if ($('[id^=apply_jobapp]:contains(" + txtApplied + ")').length) {
+  if ($('[id^=apply_jobapp]:contains(" + txtApplied + ")').length) {
     alert('Application received');
     var div = document.createElement('div');
     div.innerHTML = indeedScript;
     document.getElementsByTagName('body')[0].appendChild(div);
-	}
+  }
 });
 
