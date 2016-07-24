@@ -50,6 +50,10 @@ function indeed_handle_conversion() {
   }
   if (w.indeed_conversion_id) {
     var url = indeed_get_conv_url(w.indeed_conversion_label, "", 1);
+    document.write('<i' + 'mg height="1" ' +
+             'width="1" border="0" ' +
+             'id="indeed-img"' +
+             'src="' + url + '&ifr' + 'ame=0" />');
     document.write('<ifr' + 'ame name="indconv"' +
 		     ' width="1" height="1" src="' + url + '"' +
 		     ' frameborder="0" marginwidth="0" marginheight="0"' +
