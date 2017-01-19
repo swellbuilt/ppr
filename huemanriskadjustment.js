@@ -1,2 +1,4 @@
 console.log('external');
-$('link[rel=alternate]').after('<input name="searchdropcity" id="searchdropcity" type="hidden" value="AL$$Birmingham">');
+
+var $pcrURL = $('link[rel=alternate]');
+$pcrURL.attr("href",$pcrURL.attr("href")+"?searchdropcity=AL$$Birmingham");
