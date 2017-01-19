@@ -1,2 +1,2 @@
 console.log('external');
-$('#regmenu_span76').hide();
+$('input#p9').after('<input name="searchcom" id="searchcom" type="hidden" value="727095080222416">');
