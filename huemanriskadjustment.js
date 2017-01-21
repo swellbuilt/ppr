@@ -1,5 +1,5 @@
 var newurl;
-function refURL(newurl) {
+window.refURL = function(newurl) {
   console.log('external');
   if (newurl === undefined) {
     
